@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SNEAKERLOCKER</title>
+     <meta charset="utf-8">
+     <link href="styles.css" rel="stylesheet" type="text/css">
+     <style>
+       
+       @media (max-width: 450px) {
+    
+        header {
+          text-align: center;
+        }
+
+        nav li{
+          font-size: 3em;
+          padding: 0;
+
+        }
+
+        .yeezy {
+          padding: 0;
+          font-size: 4em;
+        }
+
+        #gallery {
+          padding: 0;
+          flex-wrap: wrap;
+        }
+
+        .intro {
+          padding: 20px;
+          height: 100%;
+        }
+      }
+
+      @media (min-width: 767px) {
+    
+        header {
+          text-align: center;
+        }
+
+        nav li{
+          font-size: 1em;
+          padding: 1vh;
+
+        }
+
+        .yeezy {
+          padding: 0;
+        }
+
+        #gallery {
+          padding: 0;
+          flex-wrap: wrap;
+        }
+
+        .intro {
+          padding: 20px;
+          height: 100%;
+        }
+      }
+
+      @media (min-width: 1365px) {
+    
+        header {
+          text-align: left;
+        }
+
+        nav li{
+          font-size: 1.5em;
+        }
+
+        .yeezy {
+          padding: 15vh;
+        }
+
+        #gallery {
+          padding: 0;
+          flex-wrap: wrap;
+        }
+
+        .intro {
+          padding: 20px;
+          height: 100%;
+        }
+      }
+
+      @media (min-width: 1919px) {
+    
+        header {
+          text-align: left;
+        }
+
+        nav li{
+          font-size: 1em;
+          padding: 15vh;
+        }
+
+        .yeezy {
+          font-size: 5em;
+          padding: 35vh;
+        }
+
+        #gallery {
+          padding: 20px;
+        }
+
+        .intro {
+          padding: 20px;
+          height: 100%;
+        }
+      }
+
+     </style>
+  </head>
+  <body>
+    
+    <header>
+    <h1><a href="index.html">sneakerlocker</a></h1>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="news.html">news</a></li>
+        <li><a href="brands.html">brands</a></li>
+        <li><a href="types.html">categories</a></li>
+        <li><a href="disc.html">discords</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+
+      <h2 class="yeezy">welcome</h2>
+
+      <div id="gallery">
+        <img src="images/IMG_3224.jpeg" width="250" height="250" alt="three different color jordan 4's">
+        <img src="images/IMG_3223.jpeg" width="250" height="250" alt="jordan 4's military black">
+        <img src="images/IMG_1506.jpeg" width="250" height="250" alt="nike dunk's high blue chill">
+        <img src="images/IMG_3225.jpeg" width="250" height="250" alt="jordan 11's low pure violet">
+        <img src="images/IMG_3226.jpeg" width="250" height="250" alt="jordan 6's unc home">
+      </div>
+      
+      <div class="intro">
+        <h3>About</h3>
+        <div class="big">
+        <p>This website focus will be to provide information to the sneaker community about sneaker events/releases, brands, discord sneaker community channels, and sneaker influencers.</p> <p>The intended audience for this website is everyone. All individuals who are interested or passionate about footwear ranging from sneakers and athletic wear.</p> <p>The information that I want viewers to take away from this website are release dates, story behind the shoes, colorways, and pricing.</p>
+      </div>
+      </div>
+
+      <form method="post">
+        
+        <div>
+        <h3>Favorite Brand</h3>
+        <select name="fbrand" id="fbrand">
+          <option value="Nike">Nike</option>
+          <option value="Brooks">Brooks</option>
+          <option value="Adidas">Adidas</option>
+          <option value="Puma">Puma</option>
+          <option value="Asics">Asics</option>
+          <option value="New Balance">New Balance</option>
+          <option value="Jordan">Jordan</option>
+        </select>
+        </div>
+        
+        <br>
+
+        <fieldset style=" border: 1px solid #403832;">
+          <legend>Recommendations</legend>
+        Comments (Max 1000 Characters):<br>
+        <label for="comments"><textarea name="comments" id="comments" cols="40" rows="4" placeholder="Enter comments" required maxlength="1000"></textarea></label>
+          <br>
+           <input type="submit" value="Submit">
+          <input type="Reset" value="Reset"> <br>
+          </fieldset>
+      </form>
+    </main>
+    
+    <footer>
+
+      <h3 style="margin-top: 50px;">links</h3>
+      
+      <div id="socials">
+        <a href="https://www.instagram.com/elijahfelderr/" target="_blank"><img src="icons/instagram-2170420_1280.png" width="25" height="25" alt="instagram account icon"></a>
+        <a href="https://twitter.com/elitexeli" target="_blank"><img src="icons/twitter-2170426_1280.png" width="25" height="25" alt="twitter account icon"></a>
+        <a href="https://www.linkedin.com/in/elijahfelder/" target="_blank"><img src="icons/linkedin-2170421_1280.png" width="25" height="25" alt="linkedin account icon"></a>
+        <a href="https://www.twitch.tv/elitexeli" target="_blank"><img src="icons/twitch-3372590_1280.png" width="25" height="25" alt="twitch account icon"></a>
+      </div>
+      
+    </footer>
+  </body>
+</html>
