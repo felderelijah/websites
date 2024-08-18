@@ -1,0 +1,297 @@
+body {
+  font-family: sans-serif;
+  background-color: #918071;
+  margin: 0;
+}
+
+body footer {
+  background-image: url(images/images-2.png);
+}
+header {
+  background-color: #e6cab3;
+  padding: 3vh;
+}
+h1 {
+  text-transform: uppercase;
+  color: #403832;
+}
+
+header a:link {
+  color: #403832;
+}
+header a:visited {
+  color: #403832;
+}
+header a:focus {
+  color: #403832;
+}
+header a:hover {
+  color: #403832;
+}
+header a:active{
+  color: #403832;
+}
+
+nav {
+  background-color: #403832;
+  color: #ffe1c8;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+nav a:link {
+  color: #ffe1c8;
+}
+nav a:visited {
+  color: #ffe1c8;
+}
+nav a:focus {
+  color: #918071;
+}
+nav a:hover {
+  color: #918071;
+}
+nav a:active{
+  color: #918071;
+}
+
+h3 a:link {
+  color: #ffe1c8;
+}
+h3 a:visited {
+  color: #ffe1c8;
+}
+h3 a:focus {
+  color: #918071;
+}
+h3 a:hover {
+  color: #918071;
+}
+h3 a:active{
+  color: #918071;
+}
+
+#type a:link {
+  color: #403832;
+}
+#type a:visited {
+  color: #403832;
+}
+#type a:focus {
+  color: #918071;
+}
+#type a:hover {
+  color: #918071;
+}
+#type a:active{
+  color: #918071;
+}
+
+nav li {
+  display: inline;
+  padding: 15vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+  padding: 20px;
+}
+.intro {
+  background-color: #403832;
+  color: #d1b8a3;
+  padding: 20px;
+  height: 35vh;
+}
+.big {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-top: 5vh;
+}
+
+.yeezy {
+  font-size: 5em; 
+  text-transform: uppercase; 
+  background-color: #e6cab3; 
+  padding: 35vh; 
+  margin: 0;
+}
+
+.headline {
+  font-size: 6em; 
+  text-shadow: 0 0 2px;
+  text-transform: uppercase; 
+  background-color: #e6cab3; 
+  padding: 10vh; 
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+.insider {
+  float: left; 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  row-gap: 10vh;
+  padding: 10vh;
+  background-color: #403832;
+  margin-top: 10vh;
+  margin-left: 25vh;
+  box-shadow: 0 0 10px;
+}
+#stats {
+  float: left;
+  margin: 15vh 0 0 15vh;
+  height: 1101px;
+  }
+.mine {
+  border-collapse: collapse; 
+  font-size: 2em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px;
+  font-family: Sans-serif;
+}
+.mine thead tr{
+  background-color: #403832;
+  color: #ffe1c8;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.mine th,
+.mine td {
+  padding: 12px 15px;
+}
+.mine tbody tr {
+  border-bottom: 2px solid #403832;
+}
+.mine tbody tr:nth-of-type(even) {
+  background-color: #918071;
+}
+.mine tbody tr:nth-of-type(odd) {
+  background-color: #e6cab3;
+  color: #403832;
+}
+.mine tbody tr:last-of-type {
+  border-bottom: 3px solid #403832;
+}
+.mine tbody tr.active-row{
+  font-weight: bold;
+  color: #000000;
+}
+.headings {
+  text-align: left;
+  text-transform: uppercase;
+}
+.down {
+  margin-top: 3vh;
+}
+
+.oddleft {
+  background-color: #403832; 
+  float: left; 
+  font-size: 10em; 
+  width: 50%; 
+  margin: 0; 
+  text-transform: uppercase; 
+  padding-top: 30px;
+}
+.evenleft {
+  background-color: #ffe1c8; 
+  float: left; 
+  font-size: 10em; 
+  width: 50%; 
+  margin: 0; 
+  text-transform: uppercase; 
+  padding-top: 30px;
+}
+
+.oddright {
+  background-color: #ffe1c8; 
+  float: right; 
+  font-size: 10em; 
+  width: 50%; 
+  margin: 0; 
+  text-transform: uppercase; 
+  padding-top: 30px;
+}
+.evenright {
+  background-color: #403832; 
+  float: right; 
+  font-size: 10em; 
+  width: 50%; 
+  margin: 0; 
+  text-transform: uppercase; 
+  padding-top: 30px; 
+  font-style: italic;
+}
+
+h2{
+  text-transform: capitalize;
+}
+
+.below{
+  margin-top: 1400px;
+}
+
+footer {
+  text-align: center;
+  color: #918071;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.display {
+  float: left;
+  margin-left: 20px;
+}
+
+.bubble {
+  float: left;
+  background-color: #403832;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #ffe1c8;
+  width: 1470px;
+  height: 405px;
+  text-align: left;
+}
+
+.bubble li {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+.influence {
+  margin-left: 720px; 
+  margin-top: 20px;
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
