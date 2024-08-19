@@ -1,0 +1,147 @@
+* { /* close all gaps use asterisk instead of body*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+#image {
+    float: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+#pic {
+    width: 100%;
+    height: 75vh;
+    background-image: url(/Users/elijahfelder/Downloads/Portfolio/psMockup/images/CF.png);
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    background-color: #fff;
+}
+
+#gallery {
+    text-align: center;
+    padding: 10px;
+}
+
+#gallery img {
+    display: inline-block;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+#black {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+#platforms {
+    background-color: rgba(240, 240, 240, 0.598);
+    text-align: center;
+    padding-bottom: 150px;
+    margin: 20px 0 120px 0;
+}
+
+#platforms a {
+    text-decoration: none;
+    color: #000;
+}
+
+#platforms a:hover {
+    color: rgba(31, 31, 185, 0.855);
+    
+}
+
+#platforms ul {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 25%;
+    padding-left: 25%;
+    list-style-type: none;
+}
+
+#platforms li {
+    font-size: 100px;
+}
+
+#socials {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 0;
+    padding: 60px 0 0 0;
+}
+
+footer {
+    color: #fff;
+    padding: 40px 120px;
+    text-align: left;
+    background-color: rgba(31, 31, 185, 0.855);
+}
+
+#footer-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(180, 179, 179);;
+    border-bottom: 1px solid rgb(180, 179, 179);
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 100px;
+    margin: 10px;
+}
+
+.footer-col h3 {
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 300;
+    font-size: large;
+}
+
+footer ul {
+    list-style-type: none;
+    font-weight: 100;
+    font-size: small;
+}
+
+#lined {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40% 0 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
